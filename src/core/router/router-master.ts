@@ -8,6 +8,7 @@ export class RouterMaster {
     constructor() {
         this.routes = {
             [Method.Get]: new RouteRecognizer(),
+            [Method.Put]: new RouteRecognizer(),
             [Method.Post]: new RouteRecognizer(),
             [Method.Patch]: new RouteRecognizer(),
             [Method.Delete]: new RouteRecognizer()

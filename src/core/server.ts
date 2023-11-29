@@ -17,8 +17,8 @@ export class SherpaServer {
         this.addRoot();
     }
 
-    public process(request:Request) {
-        this.router.process(request);
+    public async process(request:Request):Promise<Response> {
+        return await this.router.process(request);
     }
 
     private validateConfig() {

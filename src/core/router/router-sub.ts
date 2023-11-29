@@ -20,6 +20,10 @@ export class Router {
         this.add(path, handler, Method.Get);
     }
 
+    public put(path:Path, handler:Handler) {
+        this.add(path, handler, Method.Put);
+    }
+
     public post(path:Path, handler:Handler) {
         this.add(path, handler, Method.Post);
     }
