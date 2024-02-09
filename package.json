@@ -1,17 +1,13 @@
 {
-	"name": "sherpa-starter",
-	"version": "0.1.0",
+	"name": "sherpa-template-module",
+	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"lint": "next lint"
+		"build": "sherpa build -b Vercel",
+		"dev": "sherpa start",
+		"lint": "sherpa lint"
 	},
 	"dependencies": {
-
-	},
-	"devDependencies": {
-
+		"sherpa-core": "^0.0.11"
 	}
 }
