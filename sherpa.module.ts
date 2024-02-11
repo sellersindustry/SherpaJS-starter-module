@@ -2,7 +2,7 @@ import { NewModule } from "sherpa-core";
 
 export default NewModule({
     version: 1,
-    name: "example-module",
+    name: "template_name",
 });
 
 
