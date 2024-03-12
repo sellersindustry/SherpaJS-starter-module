@@ -8,6 +8,6 @@
 		"lint": "sherpa lint"
 	},
 	"dependencies": {
-		"sherpa-core": "^0.0.11"
+		"sherpa-core": "^0.0.16"
 	}
 }
