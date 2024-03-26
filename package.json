@@ -3,9 +3,9 @@
 	"version": "0.0.2",
 	"scripts": {
 		"build": "sherpa build -b Vercel",
-		"dev": "sherpa build -b Local && node ./.sherpa/index.js"
+		"dev": "sherpa build -b local && node ./.sherpa/index.js"
 	},
 	"dependencies": {
-		"sherpa-core": "^1.0.2"
+		"sherpa-core": "^1.0.3"
 	}
 }
