@@ -8,6 +8,6 @@ microservices. This template provides a quick way to build custom SherpaJS Modul
 
 ### Developer Notes
  - Build for Vercel using `npx sherpa build -b Vercel`
- - Build for local using `npx sherpa build -b Local`
+ - Build for local using `npx sherpa build -b local`
  - Run locally using `node ./.sherpa/index.js`
  - For more information see [SherpaJS Documentation](https://github.com/sellersindustry/SherpaJS)
