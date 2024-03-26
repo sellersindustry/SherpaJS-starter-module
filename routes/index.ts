@@ -25,11 +25,9 @@ export async function POST(request:Request, context:ContextSchema) {
 }
 
 
-
 export async function PATCH(request:Request, context:ContextSchema) {
     return Response.text("PATCH REQUEST");
 }
-
 
 
 export async function DELETE(request:Request, context:ContextSchema) {

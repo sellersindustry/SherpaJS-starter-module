@@ -6,7 +6,7 @@
  *   date: Sun Feb 11 2024
  *   file: index.ts
  *   project: SherpaJS Template Module
- *   purpose: Endpoint /example/:id/
+ *   purpose: Endpoint /example/[id]/
  *
  */
 
@@ -20,5 +20,6 @@ export async function GET(request:Request, context:ContextSchema) {
 }
 
 
-// For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord.
+// For the wages of sin is death, but the gift of God is eternal life in
+// Christ Jesus our Lord.
 // - Romans 6:23
