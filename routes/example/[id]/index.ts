@@ -11,16 +11,12 @@
  */
 
 
-import { Request, Environment as Env, Response } from "sherpa-core";
+import { Request, Response } from "sherpa-core";
+import { ContextSchema } from "../../../sherpa.module";
 
 
-export function GET(request:Request, env:Env) {
-    return Response({
-        "url": request.url,
-        "id": request.params.id,
-    }, {
-        "status": 200
-    });
+export async function GET(request:Request, context:ContextSchema) {
+    return Response.JSON({ request, context }, { status: 200 });
 }
 
 

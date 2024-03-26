@@ -3,14 +3,12 @@
  * Only needed to run server locally
  */
 
-import { NewServer } from "sherpa-core";
+import { SherpaJS } from "sherpa-core";
+import { ContextSchema } from "./sherpa.module";
 
-export default NewServer({
-    version: 1,
-    app: {
-        module: ".",
-        properties: {
-            exampleProperty: "2"
-        }
-    },
+
+export default SherpaJS.New.server({
+    context: {
+        exampleProperty: "f"
+    } as ContextSchema
 });

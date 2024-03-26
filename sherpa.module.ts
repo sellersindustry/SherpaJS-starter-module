@@ -1,11 +1,10 @@
-import { NewModule } from "sherpa-core";
+import { SherpaJS } from "sherpa-core";
 
-export default NewModule({
-    version: 1,
+export default SherpaJS.New.module({
     name: "template_name",
 });
 
 
-export type SHERPA_PROPERTIES = {
+export type ContextSchema = {
     exampleProperty: string
 }
