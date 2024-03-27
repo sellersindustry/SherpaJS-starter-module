@@ -6,6 +6,6 @@
 		"dev": "sherpa build -b local && node ./.sherpa/index.js"
 	},
 	"dependencies": {
-		"sherpa-core": "^1.0.3"
+		"sherpa-core": "^1.0.4"
 	}
 }

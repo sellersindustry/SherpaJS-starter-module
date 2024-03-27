@@ -16,6 +16,7 @@ import { ContextSchema } from "../../../sherpa.module";
 
 
 export async function GET(request:Request, context:ContextSchema) {
+    let id = request.params.path.get("id");
     return Response.JSON({ request, context }, { status: 200 });
 }
 
