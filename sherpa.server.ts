@@ -4,10 +4,10 @@
  */
 
 import { SherpaJS } from "sherpa-core";
-import { Config } from "./sherpa.module";
+import { Context } from "./sherpa.module";
 
 
-export default SherpaJS.New.server<Config>({
+export default SherpaJS.New.server<Context>({
     context: {
         exampleProperty: "hello world"
     }

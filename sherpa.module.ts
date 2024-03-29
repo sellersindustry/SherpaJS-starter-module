@@ -1,13 +1,13 @@
 import { ContextSchema, SherpaJS } from "sherpa-core";
 
 
-export type Config = {
+export type Context = {
     exampleProperty: string
 };
 
 
 export default SherpaJS.New.module({
     name: "template_name",
-    interface: ContextSchema<Config>
+    interface: ContextSchema<Context>
 });
 
