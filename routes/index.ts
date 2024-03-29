@@ -12,25 +12,30 @@
 
 
 import { Request, Response } from "sherpa-core";
-import { ContextSchema } from "../sherpa.module";
+import { Config } from "../sherpa.module";
 
 
-export async function GET(request:Request, context:ContextSchema) {
+export async function GET(request:Request, context:Config) {
     return Response.JSON({ request, context }, { status: 200 });
 }
 
 
-export async function POST(request:Request, context:ContextSchema) {
+export async function POST(request:Request, context:Config) {
     return Response.JSON({ request, context }, { status: 200 });
 }
 
 
-export async function PATCH(request:Request, context:ContextSchema) {
+export async function PUT(request:Request, context:Config) {
+    return Response.text("PUT REQUEST");
+}
+
+
+export async function PATCH(request:Request, context:Config) {
     return Response.text("PATCH REQUEST");
 }
 
 
-export async function DELETE(request:Request, context:ContextSchema) {
+export async function DELETE(request:Request, context:Config) {
     return Response.new({ status: 200 });
 }
 

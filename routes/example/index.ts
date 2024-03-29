@@ -12,10 +12,10 @@
 
 
 import { Request, Response } from "sherpa-core";
-import { ContextSchema } from "../../sherpa.module";
+import { Config } from "../../sherpa.module";
 
 
-export async function GET(request:Request, context:ContextSchema) {
+export async function GET(request:Request, context:Config) {
     return Response.JSON({ request, context }, { status: 200 });
 }
 

@@ -4,11 +4,11 @@
  */
 
 import { SherpaJS } from "sherpa-core";
-import { ContextSchema } from "./sherpa.module";
+import { Config } from "./sherpa.module";
 
 
-export default SherpaJS.New.server({
+export default SherpaJS.New.server<Config>({
     context: {
-        exampleProperty: "f"
-    } as ContextSchema
+        exampleProperty: "hello world"
+    }
 });
