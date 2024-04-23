@@ -1,4 +1,4 @@
-import { ContextSchema, SherpaJS } from "sherpa-core";
+import { CreateModuleInterface, SherpaJS } from "sherpa-core";
 
 
 export type Context = {
@@ -8,6 +8,6 @@ export type Context = {
 
 export default SherpaJS.New.module({
     name: "template_name",
-    interface: ContextSchema<Context>
+    interface: CreateModuleInterface<Context>
 });
 
