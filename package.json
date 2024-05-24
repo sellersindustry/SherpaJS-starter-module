@@ -5,9 +5,12 @@
 	"exports": "./sherpa.module.ts",
 	"scripts": {
 		"build": "sherpa build -b Vercel",
-		"dev": "sherpa build -b local && node ./.sherpa/index.js"
+		"build-local": "sherpa build -b local",
+		"start": "sherpa start",
+		"dev": "sherpa dev"
 	},
 	"dependencies": {
-		"sherpa-core": "^1.2.2"
+		"@types/node": "^20.12.12",
+		"sherpa-core": "^1.3.1"
 	}
 }

@@ -1,13 +1,13 @@
-# SherpaJS Module Template
-SherpaJS empowers developers to effortlessly construct modular and reusable
-microservices. This template provides a quick way to build custom SherpaJS Modules.
+<p align="center">
+    <a href="https://docs.page/sellersindustry/SherpaJS">
+        <img src="https://github.com/sellersindustry/SherpaJS/raw/main/docs/assets/logos/favicon.png" height="128px"/>
+        <h1 align="center">SherpaJS</h1>
+    </a>
+</p>
 
-### See [SherpaJS Documentation](https://github.com/sellersindustry/SherpaJS) for more information.
 
-<br>
+## Getting Started
+SherpaJS is a modular and agnostic serverless JavaScript web framework, that allows developers to easily build backend serverless web applications.
 
-### Developer Notes
- - Build for Vercel using `npx sherpa build -b Vercel`
- - Build for local using `npx sherpa build -b local`
- - Run locally using `node ./.sherpa/index.js`
- - For more information see [SherpaJS Documentation](https://github.com/sellersindustry/SherpaJS)
+  * Check out the [documentation](https://docs.page/sellersindustry/SherpaJS)
+  * Check out the [server template example](https://github.com/sellersindustry/SherpaJS-template-server)
